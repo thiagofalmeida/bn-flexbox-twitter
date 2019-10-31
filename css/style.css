@@ -11,16 +11,31 @@ body {
     -webkit-font-smoothing: antialiased !important;
 }
 
+input, button {
+    outline: 0;
+}
+
+.content {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
 i.twitter-logo {
     color: #55acef;
 }
 
-header#main-header {
+header#main-header .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100%;
+}
+
+header#main-header {
     height: 46px;
     background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
 }
 
 header#main-header nav ul {
@@ -43,8 +58,51 @@ header#main-header nav ul li i {
     margin-right: 7px;
 }
 
+header#main-header div.side {
+    display: flex;
+}
+
+header#main-header div.side input {
+    background: #f5f8fa;
+    border: 1px solid #e6ecf0;
+    color: #667581;
+    height: 34px;
+    width: 220px;
+    padding: 0 30px 0 12px;
+    font-size: 12px;
+    border-radius: 16px;
+}
+
+header#main-header div.side div.search {
+    display: flex;
+    align-items: center;
+}
+
+header#main-header div.side div.search i.ajust-button {
+    position: relative;
+    right: 30px;
+}
+
+
 header#main-header div.side img {
     height: 34px;
     width: 34px;
     border-radius: 50%;
+    margin: 0 15px;
+}
+
+header#main-header div.side button {
+    height: 34px;
+    width: 90px;
+
+    font-weight: bold;
+    font-size: 14px;
+    border: 0;
+    border-radius: 16px;
+    color: #fff;
+    background: #3bb9e3;
+
+    display: flex;
+    align-content: center;
+    justify-content: center; 
 }
