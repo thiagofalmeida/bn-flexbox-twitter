@@ -84,6 +84,7 @@ header#main-header div.side div.search i.ajust-button {
     position: relative;
     right: 30px;
     margin-right: -15px;
+    color: #667581;
 }
 
 header#main-header div.side img {
@@ -107,6 +108,12 @@ header#main-header div.side button {
     display: flex;
     align-content: center;
     justify-content: center; 
+}
+
+header#main-header div.side button:hover {
+    background-color: #006dbf;
+    border-color: #006dbf;
+    color: #fff;
 }
 
 div.banner {
@@ -196,4 +203,9 @@ div.bar .content .actions button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+div.bar .content .actions button:hover {
+    background-color: #eaf5fd;
+    color: #1da1f2;
 }
