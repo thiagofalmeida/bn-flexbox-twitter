@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6ecf0;
+    font-family: Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+i.twitter-logo {
+    color: #55acef;
+}
+
+header#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    background: #fff;
+}
+
+header#main-header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header#main-header nav ul li {
+    font-size: 13px;
+    color: #667580;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+header#main-header nav ul li:first-child {
+    margin: 0;
+}
+
+header#main-header nav ul li i {
+    margin-right: 7px;
+}
+
+header#main-header div.side img {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
